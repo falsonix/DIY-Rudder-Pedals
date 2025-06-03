@@ -5,9 +5,9 @@ description: 3D printed fully functional rudder pedals for use in a flight simul
 created_at (MM/DD/YYYY): 06/02/2025
 ---
 
-**Total time spent on this project as of the latest entry: 3.5 hours**
+**Total time spent on this project as of the latest entry: 4.5 hours**
 
-# June 2nd, 2025 [Introduction & Research]
+# June 2nd, 2025 [Introduction & Research] - 4.5 hours
 Today marks the beginning of this project. I wanted to create something that I'd actually use more than once, and wanted to tie it into my current obsession with virtual planes.
 Before continuing with any research, I began thinking of specific aspects that I'd like to incorporate into this project. Those are:
 - Easily constructed by anyone with a 3D printer, screwdriver, and soldering iron
@@ -94,3 +94,8 @@ I used the following models from the GrabCAD website as reference to design the 
 
 Starting with the pedals themselves, I measured my own foot and found it to be around 22cm long and 10cm wide. I plan to make the pedals around 20cm by 10cm as I feel this is a suitable size for most people's feet. I then sketched this area out in Autodesk Fusion (formerly Fusion 360), along with a rough sketch of the mechanism that will ensure the pedals stay facing the user while moving forward or backward.
 ![Screenshot 2025-06-02 192240](https://github.com/user-attachments/assets/bb09fed8-8354-4b6a-b5cc-e923f0ca9336)
+
+After a while of planning, I began creating the main base and two pedal swivel points. The basic concept is that the center acts as a fixed point, and the two pedals rotate around the center. They use 6804 bearings to ensure smooth motion across everything, and will have two linkages connecting them together. The bases of the three were then mirrored onto the top to create a mostly-finished assembly, which is depicted in the screenshot below.
+![Screenshot 2025-06-02 214440](https://github.com/user-attachments/assets/07bf5dc6-7a09-4fe5-8310-514a03091a29)
+
+<<End of day 1>>
