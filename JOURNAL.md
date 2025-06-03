@@ -93,9 +93,35 @@ I used the following models from the GrabCAD website as reference to design the 
 - [Raspberry Pi Pico by Alexander Mandron](https://grabcad.com/library/raspberry-pi-pico-3)
 
 Starting with the pedals themselves, I measured my own foot and found it to be around 22cm long and 10cm wide. I plan to make the pedals around 20cm by 10cm as I feel this is a suitable size for most people's feet. I then sketched this area out in Autodesk Fusion (formerly Fusion 360), along with a rough sketch of the mechanism that will ensure the pedals stay facing the user while moving forward or backward.
+
 ![Screenshot 2025-06-02 192240](https://github.com/user-attachments/assets/bb09fed8-8354-4b6a-b5cc-e923f0ca9336)
 
 After a while of planning, I began creating the main base and two pedal swivel points. The basic concept is that the center acts as a fixed point, and the two pedals rotate around the center. They use 6804 bearings to ensure smooth motion across everything, and will have two linkages connecting them together. The bases of the three were then mirrored onto the top to create a mostly-finished assembly, which is depicted in the screenshot below.
+
 ![Screenshot 2025-06-02 214440](https://github.com/user-attachments/assets/07bf5dc6-7a09-4fe5-8310-514a03091a29)
 
 <<End of day 1>>
+
+# June 3rd, 2025 [Continuing CAD Design] - 1.75 hours {IN PROGRESS}
+
+Good morning! Today I wanted to continue progress on the actual design of the pedals, starting with modification of the shafts to hold a standard M5 hex nut in order to increase the strength of the screw joint. I accomplished this by cutting a pocket in the shaft to hold the nut, and then a channel into the side so that the nut can be inserted.
+
+![Screenshot 2025-06-03 101306](https://github.com/user-attachments/assets/34350e1d-1816-487b-8f65-fa2f1e98ccd5)
+
+I then realized that the shafts were actually too close to one another for the linkage that I wanted to use, as depicted below. I wanted the linkage to surround the bearing for more strength, but seeing as how the two bearings are really close together, this wouldn't be possible.
+
+![Screenshot 2025-06-03 103547](https://github.com/user-attachments/assets/e3659381-02a7-4f9b-811c-8db6e5d06165)
+
+After fixing the spacing of the shafts, I then began sketching the linkages themselves. I aimed for an internal diameter of 32.2 mm to accomodate the bearings properly, and an outer diameter of 45 mm for more stability.
+
+![Screenshot 2025-06-03 111620](https://github.com/user-attachments/assets/10fb30d4-fdcb-43ea-b4cf-f2f51c9aaa4d)
+
+This is a basic outline of what the linkages will look like in the final product, highlighted in yellow. They may be a little thick, but I'm prioritizing function over form for now.
+
+![Screenshot 2025-06-03 112536](https://github.com/user-attachments/assets/1c631750-63c7-4e41-a5c3-995a30fb2b64)
+
+After that, I thickened the center of the linkages to hold the bearings closer to the exterior, in order to have them be better aligned and stay in place.
+
+![Screenshot 2025-06-03 114135](https://github.com/user-attachments/assets/d53d6450-c653-4ac1-adb3-f398baaf3555)
+
+<Taking a break for a while, will continue later tonight>
