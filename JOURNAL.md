@@ -5,7 +5,7 @@ description: 3D printed fully functional rudder pedals for use in a flight simul
 created_at (MM/DD/YYYY): 06/02/2025
 ---
 
-**Total time spent on this project as of the latest entry: 1.5 hours**
+**Total time spent on this project as of the latest entry: 2 hours**
 
 # June 2nd, 2025 [Introduction & Research]
 Today marks the beginning of this project. I wanted to create something that I'd actually use more than once, and wanted to tie it into my current obsession with virtual planes.
@@ -61,8 +61,36 @@ So apparently in this case I was incorrect about the lifespan of encoders compar
 
 There are thousands of microcontroller boards that would fulfill the purpose that I need, but I want one that can easily be acquired by someone else trying to build this project. Ideally, the board should have:
 - Enough flash RAM to handle inputs smoothly (32-64 KB for extra breathing room)
-- A fast clock speed (to allow for more detections per millisecond)
 - A minimum of 3 analog inputs for the potentiometers
 - A method of communication over USB
 
-(Going out for a few hours now, going to research when I return) - (4:18 PM CST)
+Several boards from popular manufacturers fit the criteria for this project, so I decided to narrow it down to three different models, each with varying features:
+
+**Arduino UNO R4 Minima**
+- Price: $20 from [Arduino](https://store-usa.arduino.cc/collections/boards-modules/products/uno-r4-minima)
+- Analog Inputs: 6
+- RAM: 32 KB
+<img src="https://github.com/user-attachments/assets/7401f3ba-7af7-4552-9e3f-deb08d238894" width=250>
+
+**Raspberry Pi Pico**
+- Price: $4 from [SparkFun](https://www.sparkfun.com/raspberry-pi-pico.html)
+- Analog Inputs: 3
+- RAM: 264 KB
+<img src="https://github.com/user-attachments/assets/b8e6dbf2-0bae-47db-b3b9-459daf7cb0bc" width=250>
+
+**Raspberry Pi Pico 2**
+- Price: $5 from [SparkFun](https://www.sparkfun.com/raspberry-pi-pico-2.html)
+- Analog Inputs: 3
+- RAM: 520 KB
+<img src="https://github.com/user-attachments/assets/8e534676-3ecc-4c62-b446-ba94f8a252f1" width=250>
+
+After considering these three options, I ended up choosing the Raspberry Pi Pico 2, as it is both affordable and has *plenty* of memory for our use case. It also has three analog inputs, which was needed for the potentiometers, and plenty of digital I/O for possible additions later.
+
+Alright, great! Now we've got the hardware and main design features laid out, so it's time to begin the CAD process.
+
+I used the following models from the GrabCAD website as reference to design the 3D printed parts around:
+- [B10K Potentiometer by Danilo Vilardi](https://grabcad.com/library/potentiometer-b10k-1)
+- [Raspberry Pi Pico by Alexander Mandron](https://grabcad.com/library/raspberry-pi-pico-3)
+
+Starting with the pedals themselves, I measured my own foot and found it to be around 22cm long and 10cm wide. I plan to make the pedals around 20cm by 10cm as I feel this is a suitable size for most people's feet. I then sketched this area out in Autodesk Fusion (formerly Fusion 360), along with a rough sketch of the mechanism that will ensure the pedals stay facing the user while moving forward or backward.
+![Screenshot 2025-06-02 192240](https://github.com/user-attachments/assets/bb09fed8-8354-4b6a-b5cc-e923f0ca9336)
