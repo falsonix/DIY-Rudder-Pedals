@@ -5,7 +5,7 @@ description: 3D printed fully functional rudder pedals for use in a flight simul
 created_at (MM/DD/YYYY): 06/02/2025
 ---
 
-**Total time spent on this project as of the latest entry: 2 hours**
+**Total time spent on this project as of the latest entry: 3.5 hours**
 
 # June 2nd, 2025 [Introduction & Research]
 Today marks the beginning of this project. I wanted to create something that I'd actually use more than once, and wanted to tie it into my current obsession with virtual planes.
