@@ -5,7 +5,7 @@ description: 3D printed fully functional rudder pedals for use in a flight simul
 created_at (MM/DD/YYYY): 06/02/2025
 ---
 
-**Total time spent on this project as of the latest entry: 4.5 hours**
+**Total time spent on this project as of the latest entry: 6.25 hours**
 
 # June 2nd, 2025 [Introduction & Research] - 4.5 hours
 Today marks the beginning of this project. I wanted to create something that I'd actually use more than once, and wanted to tie it into my current obsession with virtual planes.
@@ -125,3 +125,12 @@ After that, I thickened the center of the linkages to hold the bearings closer t
 ![Screenshot 2025-06-03 114135](https://github.com/user-attachments/assets/d53d6450-c653-4ac1-adb3-f398baaf3555)
 
 <Taking a break for a while, will continue later tonight>
+
+# June 4th, 2025 [Continuing CAD Design] - 0.75 hours {IN PROGRESS}
+
+Well, guess who didn't end up getting any more work done yesterday OR the start of today. If you guessed me, you're correct. Personally, I blame it on Deltarune releasing this morning.
+Anyways, I began the day's progress by planning out how I wanted the pedals to actually interface with the moving bases, and did so in a MS Paint drawing.
+![Screenshot 2025-06-04 140419](https://github.com/user-attachments/assets/f4fcfb54-0680-4e8d-9200-eae2a5d39e53)
+
+In order to be able to read a position from the potentiometers, they will be placed inside of the pedal assembly like so:
+![Untitled](https://github.com/user-attachments/assets/214b5366-4009-40c1-9c87-2247f4ffe7a0)
