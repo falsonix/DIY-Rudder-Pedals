@@ -5,7 +5,7 @@ description: 3D printed fully functional rudder pedals for use in a flight simul
 created_at (MM/DD/YYYY): 06/02/2025
 ---
 
-**Total time spent on this project as of the latest entry: 6.25 hours**
+**Total time spent on this project as of the latest entry: 9.5 hours**
 
 # June 2nd, 2025 [Introduction & Research] - 4.5 hours
 Today marks the beginning of this project. I wanted to create something that I'd actually use more than once, and wanted to tie it into my current obsession with virtual planes.
@@ -102,7 +102,7 @@ After a while of planning, I began creating the main base and two pedal swivel p
 
 <<End of day 1>>
 
-# June 3rd, 2025 [Continuing CAD Design] - 1.75 hours {IN PROGRESS}
+# June 3rd, 2025 [Continuing CAD Design] - 1.75 hours
 
 Good morning! Today I wanted to continue progress on the actual design of the pedals, starting with modification of the shafts to hold a standard M5 hex nut in order to increase the strength of the screw joint. I accomplished this by cutting a pocket in the shaft to hold the nut, and then a channel into the side so that the nut can be inserted.
 
@@ -126,11 +126,22 @@ After that, I thickened the center of the linkages to hold the bearings closer t
 
 <Taking a break for a while, will continue later tonight>
 
-# June 4th, 2025 [Continuing CAD Design] - 0.75 hours {IN PROGRESS}
+# June 4th, 2025 [Continuing CAD Design] - 3.25 hours
 
 Well, guess who didn't end up getting any more work done yesterday OR the start of today. If you guessed me, you're correct. Personally, I blame it on Deltarune releasing this morning.
 Anyways, I began the day's progress by planning out how I wanted the pedals to actually interface with the moving bases, and did so in a MS Paint drawing.
+
 ![Screenshot 2025-06-04 140419](https://github.com/user-attachments/assets/f4fcfb54-0680-4e8d-9200-eae2a5d39e53)
 
 In order to be able to read a position from the potentiometers, they will be placed inside of the pedal assembly like so:
 ![Untitled](https://github.com/user-attachments/assets/214b5366-4009-40c1-9c87-2247f4ffe7a0)
+
+After modeling the two side panels of the pedal assembly, I began using references of a 6802 bearing to cut the correctly sized pockets and holes for the axle to protrude through.
+
+![Screenshot 2025-06-04 152044](https://github.com/user-attachments/assets/eb958302-3dc4-4827-805d-9ad9e60e6edd)
+
+![image](https://github.com/user-attachments/assets/f1fdaf95-7414-4d3a-b0f9-590d69daaa16)
+
+I ended up changing the design slightly, in order to have the screw on end caps to the outside and the parts that will attach to the pedal itself on the inside.
+
+![image](https://github.com/user-attachments/assets/3d56848d-c3b4-44ad-adf6-aa603335cafe)
