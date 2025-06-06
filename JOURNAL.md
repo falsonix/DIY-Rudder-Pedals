@@ -5,7 +5,7 @@ description: 3D printed fully functional rudder pedals for use in a flight simul
 created_at (MM/DD/YYYY): 06/02/2025
 ---
 
-**Total time spent on this project as of the latest entry: 11.5 hours**
+**Total time spent on this project as of the latest entry: 15.25 hours**
 
 # June 2nd, 2025 [Introduction & Research] - 4.5 hours
 Today marks the beginning of this project. I wanted to create something that I'd actually use more than once, and wanted to tie it into my current obsession with virtual planes.
@@ -146,7 +146,7 @@ I ended up changing the design slightly, in order to have the screw on end caps 
 
 ![image](https://github.com/user-attachments/assets/3d56848d-c3b4-44ad-adf6-aa603335cafe)
 
-# June 6th, 2025 [Continuing CAD Design] - 2 hours
+# June 6th, 2025 [Continuing CAD Design] - 3.75 hours
 
 I didn't end up getting any work done on this project yesterday, due to being occupied with other things. Anyways, I began by sketching out how I wanted the pedals to swivel along the axis, and came up with the following. This pedal design should provide a smoothly rotating surface that won't drag or get stuck on the frame.
 
@@ -163,3 +163,24 @@ After making the pedal solid, I then worked on connecting it to the rotating sha
 I took a break from the pedal design at this point to make a small mockup of the steering mechanism, to test that it actually worked. It is a 1/3 scale replica of the original, and will be printed and tested today.
 
 ![image](https://github.com/user-attachments/assets/44db0a42-16f1-425c-bcac-7d33484f8228)
+
+After printing out and assembling the test, here is what it looks like:
+
+![IMG_3127](https://github.com/user-attachments/assets/8be805eb-4eb0-4cf4-bb11-b801df334d10)
+
+And here is how the mechanism in the final version will work:
+
+https://github.com/user-attachments/assets/b4e4ff72-1c32-40a3-b54a-28351c390ba7
+
+I then worked on connecting the rotating axle to the potentiometer, and settled upon a mechanism that uses two identical gears to transfer the force from the pedal into the potentiometer, like so:
+
+![image](https://github.com/user-attachments/assets/8bcaec34-349f-4991-a0be-cc75170c957e)
+The original mechanism that was planned in the sketch wouldn't work due to space limits within the pedal assembly.
+
+After connecting the potentiometer to the gear, I then made a mount to hold the potentiometer in place during use.
+
+![image](https://github.com/user-attachments/assets/fbccf24c-b2fb-43f0-acfe-0557a1a46492)
+
+The mount screws to the base of the pedal assembly with an M3x40 screw and accompanying M3 hex nut.
+
+![image](https://github.com/user-attachments/assets/65fb7857-b6c1-4a16-85f9-0b5a572b7374)
