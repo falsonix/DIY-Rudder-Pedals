@@ -5,7 +5,7 @@ description: 3D printed fully functional rudder pedals for use in a flight simul
 created_at (MM/DD/YYYY): 06/02/2025
 ---
 
-**Total time spent on this project as of the latest entry: 9.5 hours**
+**Total time spent on this project as of the latest entry: 11.5 hours**
 
 # June 2nd, 2025 [Introduction & Research] - 4.5 hours
 Today marks the beginning of this project. I wanted to create something that I'd actually use more than once, and wanted to tie it into my current obsession with virtual planes.
@@ -89,7 +89,7 @@ After considering these three options, I ended up choosing the Raspberry Pi Pico
 Alright, great! Now we've got the hardware and main design features laid out, so it's time to begin the CAD process.
 
 I used the following models from the GrabCAD website as reference to design the 3D printed parts around:
-- [B10K Potentiometer by Danilo Vilardi](https://grabcad.com/library/potentiometer-b10k-1)
+- [10K Rotary Potentiometer by Pierre Gleizes](https://grabcad.com/library/potentiometer-b10k-1)
 - [Raspberry Pi Pico by Alexander Mandron](https://grabcad.com/library/raspberry-pi-pico-3)
 
 Starting with the pedals themselves, I measured my own foot and found it to be around 22cm long and 10cm wide. I plan to make the pedals around 20cm by 10cm as I feel this is a suitable size for most people's feet. I then sketched this area out in Autodesk Fusion (formerly Fusion 360), along with a rough sketch of the mechanism that will ensure the pedals stay facing the user while moving forward or backward.
@@ -145,3 +145,21 @@ After modeling the two side panels of the pedal assembly, I began using referenc
 I ended up changing the design slightly, in order to have the screw on end caps to the outside and the parts that will attach to the pedal itself on the inside.
 
 ![image](https://github.com/user-attachments/assets/3d56848d-c3b4-44ad-adf6-aa603335cafe)
+
+# June 6th, 2025 [Continuing CAD Design] - 2 hours
+
+I didn't end up getting any work done on this project yesterday, due to being occupied with other things. Anyways, I began by sketching out how I wanted the pedals to swivel along the axis, and came up with the following. This pedal design should provide a smoothly rotating surface that won't drag or get stuck on the frame.
+
+![image](https://github.com/user-attachments/assets/eda8bcb7-321f-44f0-af7c-78ee7c62eef0)
+
+I also wanted to add a stopper to make sure that the pedal doesn't rotate fully vertical when not in use, also making the use of the device more comfortable overall. (stopper highlighted in red)
+
+![image](https://github.com/user-attachments/assets/273f4b85-a076-44dc-9f29-b40446a510a2)
+
+After making the pedal solid, I then worked on connecting it to the rotating shafts. The two red pieces below are the points which will connect to the pedal in order to firmly connect it to the rotation axis.
+
+![image](https://github.com/user-attachments/assets/e4d6df13-b208-4d13-8e1a-95b79c81b32c)
+
+I took a break from the pedal design at this point to make a small mockup of the steering mechanism, to test that it actually worked. It is a 1/3 scale replica of the original, and will be printed and tested today.
+
+![image](https://github.com/user-attachments/assets/44db0a42-16f1-425c-bcac-7d33484f8228)
