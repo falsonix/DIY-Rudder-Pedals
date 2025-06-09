@@ -5,7 +5,7 @@ description: 3D printed fully functional rudder pedals for use in a flight simul
 created_at (MM/DD/YYYY): 06/02/2025
 ---
 
-**Total time spent on this project as of the latest entry: 15.25 hours**
+**Total time spent on this project as of the latest entry: 16.25 hours**
 
 # June 2nd, 2025 [Introduction & Research] - 4.5 hours
 Today marks the beginning of this project. I wanted to create something that I'd actually use more than once, and wanted to tie it into my current obsession with virtual planes.
@@ -184,3 +184,26 @@ After connecting the potentiometer to the gear, I then made a mount to hold the 
 The mount screws to the base of the pedal assembly with an M3x40 screw and accompanying M3 hex nut.
 
 ![image](https://github.com/user-attachments/assets/65fb7857-b6c1-4a16-85f9-0b5a572b7374)
+
+# June 9th, 2025 [Continuing CAD Design] - 1 hour
+
+Well. It's been a few days, hasn't it?
+I decided it was time to actually connect the pedals to the moving axle, and sketched out a method of attachment that should allow for sturdy movement of the pedal. It uses M4x35 screws and M4 hex nuts to attack the pedal to the axle.
+
+![image](https://github.com/user-attachments/assets/03ef3a62-2cbb-43b0-aed7-68f618dda6ab)
+
+I then went about making the bottom of the pedal look a little better, by adding some chamfers:
+
+![image](https://github.com/user-attachments/assets/c11c26d6-1dfe-4442-8449-12129031117d)
+
+Then, I made a screw-on foot holder, to make steering with the pedals easier and more comfortable:
+
+![image](https://github.com/user-attachments/assets/0751a8c5-bac2-437e-b31f-9ef36ce7b1b1)
+
+Here is what the overall design looks like at the moment:
+
+![image](https://github.com/user-attachments/assets/1821d222-92f0-4607-9697-ab9b4fffe511)
+
+I hollowed out the center of the linkages, to reduce the amount of material required and speed up printing times.
+
+![image](https://github.com/user-attachments/assets/c7518f2b-7ef0-4461-9181-6949cc9e0055)
