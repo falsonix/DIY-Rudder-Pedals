@@ -5,7 +5,7 @@ description: 3D printed fully functional rudder pedals for use in a flight simul
 created_at (MM/DD/YYYY): 06/02/2025
 ---
 
-**Total time spent on this project as of the latest entry: 16.25 hours**
+**Total time spent on this project as of the latest entry: 18 hours**
 
 # June 2nd, 2025 [Introduction & Research] - 4.5 hours
 Today marks the beginning of this project. I wanted to create something that I'd actually use more than once, and wanted to tie it into my current obsession with virtual planes.
@@ -207,3 +207,29 @@ Here is what the overall design looks like at the moment:
 I hollowed out the center of the linkages, to reduce the amount of material required and speed up printing times.
 
 ![image](https://github.com/user-attachments/assets/c7518f2b-7ef0-4461-9181-6949cc9e0055)
+
+# June 12th, 2025 [Finishing CAD Design] - 1.75 hours
+
+After attending the Zack Freedman AMA with Hack Club, I regained motivation to work on this project.
+
+I started work today with adding the mechanism on the back that allows the rotation of the steering to be transferred to the potentiometer for measurement purposes, along with rounding off the non-used bases to save materials.
+
+![image](https://github.com/user-attachments/assets/a65f323b-02ef-429e-a992-caa0123e1c41)
+
+After that, I then added M5x16 screws paried with M5 hex nuts to hold the large red semicircle gear in place.
+
+![image](https://github.com/user-attachments/assets/cfac4d26-aeaa-4233-adbe-c7883ee65b51)
+
+I then added shafts for the springs inside the pedals, which are 50mm in length, have a 0.3mm wire diameter, and 6mm outer diameter.
+
+![image](https://github.com/user-attachments/assets/92dac29d-7ac6-42ff-8aff-2ec6236e7c6d)
+
+I then added a small mounting solution for the Pico, which should hold it in place well enough with some hot glue. I did it this way to make adding on to the device much more easy, as all of the GPIO is exposed and not blocked by the base.
+
+![image](https://github.com/user-attachments/assets/d25df915-6c4e-41e3-80e1-9a89e8d4920d)
+
+After that, I made the base slightly taller to help the pedals not drag along the floor. Some adhesive rubber/silicone feet will be placed on the bottom, to keep the device in place.
+
+![image](https://github.com/user-attachments/assets/8a5b488c-5337-47b5-93d2-8525dc30d5a5)
+
+It was at this point that I called the CAD design finished. A full BOM will be in order next, and then the code will follow after I build and can test the device.
