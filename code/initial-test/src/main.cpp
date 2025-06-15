@@ -1,4 +1,5 @@
 #include <Arduino.h>
+#include <PicoGamepad.h>
 
 int potPin = ADC0;
 
