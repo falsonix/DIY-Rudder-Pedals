@@ -1,18 +1,14 @@
 #include <Arduino.h>
 
-// put function declarations here:
-int myFunction(int, int);
+int potPin = ADC0;
 
 void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+  Serial.begin(115200);
+  pinMode(potPin, INPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-}
-
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+  int pos = analogRead(potPin);
+  Serial.println(pos);
+  delay(500); // 0.5sec delay to allow for readability during testing
 }
