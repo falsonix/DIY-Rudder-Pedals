@@ -257,4 +257,8 @@ In order to actually test this with real hardware, I assembled a one-potentiomet
 ![image](https://github.com/user-attachments/assets/967019f9-881b-4b86-9fc2-5cecfad83575)
 ![IMG_3145](https://github.com/user-attachments/assets/a6300f54-cd41-40db-950a-f46f59a43fb0)
 
-I began by creating a new PlatformIO project for the Pico, as that's what I'm used to using for projects like this.
+I began by creating a new PlatformIO project for the Pico, as that's what I'm used to using for projects like this. (added in commit [#f6d3838](https://github.com/falsonix/DIY-Rudder-Pedals/commit/f6d38384f946efc683583fb7ab64fab3e2787b84))
+
+After that, I then made a simple C++ program that will readout the value of the potentiometer every 0.5 seconds (500 milliseconds) and print it to the serial console for testing. It works quite well, and seems to be pretty accurate. (commit [#7e03fb2](https://github.com/falsonix/DIY-Rudder-Pedals/commit/7e03fb26ae062cf07cf3a6579dc6d5d069524e63))
+
+I then wanted to work on actually emulating a joystick device through hardware, and researched libraries that would make this possible/easy for me. One that I found was [PicoGamepad](https://gitlab.com/realrobots/PicoGamepad) by RealRobots, which would allow the Pico to emulate a USB HID game controller device, which is what I want to do. It is meant for the Arduino IDE, but seeing as PlatformIO uses the same core, it should work.
