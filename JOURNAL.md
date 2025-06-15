@@ -234,7 +234,7 @@ After that, I made the base slightly taller to help the pedals not drag along th
 
 It was at this point that I called the CAD design finished. A full BOM will be in order next, and then the code will follow after I build and can test the device.
 
-# June 15th, 2025 [Wiring and Coding] - start 11:45
+# June 15th, 2025 [Wiring and Coding] - start 11:30
 
 Just kidding, that wasn't the final journal entry. There's still so much to be done for this project, starting with the actual electronics portion of the build.
 In order to have a good idea of how I wanted the wiring to look from a schematic standpoint, I used Wokwi to lay out and connect all the components digitally. Since the Pico and Pico 2 share the same layout, and the software does not have a Pico 2 model as of yet, I used the original board for the diagram.
@@ -262,3 +262,11 @@ I began by creating a new PlatformIO project for the Pico, as that's what I'm us
 After that, I then made a simple C++ program that will readout the value of the potentiometer every 0.5 seconds (500 milliseconds) and print it to the serial console for testing. It works quite well, and seems to be pretty accurate. (commit [#7e03fb2](https://github.com/falsonix/DIY-Rudder-Pedals/commit/7e03fb26ae062cf07cf3a6579dc6d5d069524e63))
 
 I then wanted to work on actually emulating a joystick device through hardware, and researched libraries that would make this possible/easy for me. One that I found was [PicoGamepad](https://gitlab.com/realrobots/PicoGamepad) by RealRobots, which would allow the Pico to emulate a USB HID game controller device, which is what I want to do. It is meant for the Arduino IDE, but seeing as PlatformIO uses the same core, it should work.
+
+I implemented the library by placing the PicoGamepad.h file inside of the `include/` directory, and then included it at the top of my code. (commit [#baf10a3](https://github.com/falsonix/DIY-Rudder-Pedals/commit/baf10a37aeb8580ee5eb439774c33f1f0dc29bd6))
+
+Following one of the examples included in the README for the library, I added all the required parameters for the library to function the way that I wanted it to, along with changing the delay inside of the loop() to be 50ms instead of 500, for a much better experience. (commit [#243d89d](https://github.com/falsonix/DIY-Rudder-Pedals/commit/243d89dafc05aa474e18be73fe9a4cc093aed5ec)
+
+Upon attempting to compile this code I was met with several errors, which were fixed by dragging the PicoGamepad.cpp file into the `src/` directory. (commit [#750bbac](https://github.com/falsonix/DIY-Rudder-Pedals/commit/750bbac4e3dc49d2382af633061927bd49a68678))
+
+When attempting to use the device as a controller in Microsoft Flight Simulator 2020, it actually works! I am honestly surprised at how easy this project has been programming-wise.
