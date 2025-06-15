@@ -233,3 +233,28 @@ After that, I made the base slightly taller to help the pedals not drag along th
 ![image](https://github.com/user-attachments/assets/8a5b488c-5337-47b5-93d2-8525dc30d5a5)
 
 It was at this point that I called the CAD design finished. A full BOM will be in order next, and then the code will follow after I build and can test the device.
+
+# June 15th, 2025 [Wiring and Coding] - start 11:45
+
+Just kidding, that wasn't the final journal entry. There's still so much to be done for this project, starting with the actual electronics portion of the build.
+In order to have a good idea of how I wanted the wiring to look from a schematic standpoint, I used Wokwi to lay out and connect all the components digitally. Since the Pico and Pico 2 share the same layout, and the software does not have a Pico 2 model as of yet, I used the original board for the diagram.
+
+Starting with the data pins of each potentiometer, I connected them to all three of the Pico's analog inputs as follows:
+- Left Brake - ADC2 (GP28/Pin 34)
+- Steering - ADC1 (GP27/Pin 32)
+- Right Brake - ADC0 (GP26/Pin 31)
+
+![image](https://github.com/user-attachments/assets/2671750e-8fdf-4fc4-acf0-a0d36b97d477)
+
+(In this example, I used a different looking potentiometer module because the specific ones that I plan to use for this project were not available in the Wokwi simulator.)
+
+After that, I then connected the VCC of all the potentiometers to the 3V3 output on the Pico, and all of the GND pins to GND on the Pico (duh).
+
+![image](https://github.com/user-attachments/assets/46716439-d622-45fe-bdb8-eb35612675cb)
+
+In order to actually test this with real hardware, I assembled a one-potentiometer breadboard circuit using an Orpheus Pico and the B10K potentiometer model that I plan to use for the final build.
+
+![image](https://github.com/user-attachments/assets/967019f9-881b-4b86-9fc2-5cecfad83575)
+![IMG_3145](https://github.com/user-attachments/assets/a6300f54-cd41-40db-950a-f46f59a43fb0)
+
+I began by creating a new PlatformIO project for the Pico, as that's what I'm used to using for projects like this.
