@@ -5,7 +5,7 @@ description: 3D printed fully functional rudder pedals for use in a flight simul
 created_at (MM/DD/YYYY): 06/02/2025
 ---
 
-**Total time spent on this project as of the latest entry: 20 hours**
+**Total time spent on this project as of the latest entry: 22 hours**
 
 # June 2nd, 2025 [Introduction & Research] - 4.5 hours
 Today marks the beginning of this project. I wanted to create something that I'd actually use more than once, and wanted to tie it into my current obsession with virtual planes.
@@ -271,7 +271,13 @@ Upon attempting to compile this code I was met with several errors, which were f
 
 When attempting to use the device as a controller in Microsoft Flight Simulator 2020, it actually works! I am honestly surprised at how easy this project has been programming-wise.
 
-# June 15th, 2025 [BOM, CAD Upload, and Coding] - 1.5 hours (break at 1:45)
+# June 15th, 2025 [BOM, CAD Upload, and Coding] - 2 hours
 
 I began today's work by uploading the BOM for the entire project, with estimated prices of everything you need to build the device (commit [#4badbb7](https://github.com/falsonix/DIY-Rudder-Pedals/commit/4badbb7e6190be9a4f1259f4f8bb63aa9c7e5675)). 
 I then wanted to export all of the CAD files in both an editable `.step` format and the 3D-printable `.stl` format. This took me a while, as Fusion doesn't currently support bulk exporting, but I got it done after a bit (commit [#e1c4f7a](https://github.com/falsonix/DIY-Rudder-Pedals/commit/e1c4f7ad1d53c4c2786165909cb1275680c19664)). I will release the editable files shortly, after I eat.
+
+Here I am several hours later, without doing anything with the editable CAD files. I will get those uploaded soon, but not immediately. I decided to work on the code again, and add support for all three axes that the final device will have. I don't have the hardware to test it currently, but I still can make some simple changes. Instead of using the X, Y, and Z joystick axes built into the PicoGamepad library, I opted to use the 0, 1, and 2 generic axes, for no reason other than that I felt like it. (commit [#2e807a6](https://github.com/falsonix/DIY-Rudder-Pedals/commit/2e807a6781977d3f4e0a2774960c8f2776c0bb80))
+
+After uploading and testing the firmware in a flight simulator, it works properly as expected.
+
+It was then time to get on with the `.step` CAD files, don't think I forgot about those. I opted to export the entire assembly as one file, and also included the `.f3z` format in case anyone using Fusion wanted better compatibility. (commit [#4a1e17d](https://github.com/falsonix/DIY-Rudder-Pedals/commit/4a1e17d8546717b2db3b3d415eab9f29fbf687fe))
