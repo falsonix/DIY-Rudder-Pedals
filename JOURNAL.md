@@ -270,3 +270,8 @@ Following one of the examples included in the README for the library, I added al
 Upon attempting to compile this code I was met with several errors, which were fixed by dragging the `PicoGamepad.cpp` file into the `src/` directory. (commit [#750bbac](https://github.com/falsonix/DIY-Rudder-Pedals/commit/750bbac4e3dc49d2382af633061927bd49a68678))
 
 When attempting to use the device as a controller in Microsoft Flight Simulator 2020, it actually works! I am honestly surprised at how easy this project has been programming-wise.
+
+# June 15th, 2025 [BOM, CAD Upload, and Coding] - 1.5 hours (break at 1:45)
+
+I began today's work by uploading the BOM for the entire project, with estimated prices of everything you need to build the device (commit [#4badbb7](https://github.com/falsonix/DIY-Rudder-Pedals/commit/4badbb7e6190be9a4f1259f4f8bb63aa9c7e5675)). 
+I then wanted to export all of the CAD files in both an editable `.step` format and the 3D-printable `.stl` format. This took me a while, as Fusion doesn't currently support bulk exporting, but I got it done after a bit (commit [#e1c4f7a](https://github.com/falsonix/DIY-Rudder-Pedals/commit/e1c4f7ad1d53c4c2786165909cb1275680c19664)). I will release the editable files shortly, after I eat.
