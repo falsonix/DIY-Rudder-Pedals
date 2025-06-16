@@ -1,0 +1,1 @@
+This folder contains all the ready-to-print STL files for the project. The amount of the part needed and if support is required for that part are included in the filename.
