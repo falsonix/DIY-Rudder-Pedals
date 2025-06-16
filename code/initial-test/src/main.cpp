@@ -1,13 +1,13 @@
 #include <Arduino.h>
 #include <PicoGamepad.h>
 
-PicoGamepad gamepad;
+PicoGamepad gamepad; // init gamepad object
 int rightBrake = 26;
 int steering = 27;
 int leftBrake = 28;
 
 void setup() {
-  Serial.begin(115200); // in case debugging is needed, hope this doesnt cause issues with COM allocation
+  Serial.begin(115200); // in case debugging is needed, hope this doesnt cause issues with COM allocation (light testing reveals it's fine)
   pinMode(rightBrake, INPUT);
   pinMode(steering, INPUT);
   pinMode(leftBrake, INPUT);
