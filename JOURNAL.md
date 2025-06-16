@@ -5,7 +5,7 @@ description: 3D printed fully functional rudder pedals for use in a flight simul
 created_at (MM/DD/YYYY): 06/02/2025
 ---
 
-**Total time spent on this project as of the latest entry: 18 hours**
+**Total time spent on this project as of the latest entry: 20 hours**
 
 # June 2nd, 2025 [Introduction & Research] - 4.5 hours
 Today marks the beginning of this project. I wanted to create something that I'd actually use more than once, and wanted to tie it into my current obsession with virtual planes.
@@ -234,7 +234,7 @@ After that, I made the base slightly taller to help the pedals not drag along th
 
 It was at this point that I called the CAD design finished. A full BOM will be in order next, and then the code will follow after I build and can test the device.
 
-# June 15th, 2025 [Wiring and Coding] - start 11:30
+# June 15th, 2025 [Wiring and Coding] - 2 hours
 
 Just kidding, that wasn't the final journal entry. There's still so much to be done for this project, starting with the actual electronics portion of the build.
 In order to have a good idea of how I wanted the wiring to look from a schematic standpoint, I used Wokwi to lay out and connect all the components digitally. Since the Pico and Pico 2 share the same layout, and the software does not have a Pico 2 model as of yet, I used the original board for the diagram.
