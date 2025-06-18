@@ -19,6 +19,9 @@ This project would not have been as easy (or even possible at all) without the w
 - 10K Rotary Potentiometer by Pierre Gleizes: https://grabcad.com/library/potentiometer-b10k-1
 - Raspberry Pi Pico by Alexander Mandron: https://grabcad.com/library/raspberry-pi-pico-3
 
+# Wiring Diagram
+![image](https://github.com/user-attachments/assets/750bce54-1387-4718-94ed-3314c9e24ed7)
+
 # Building Firmware from Source
 
 **Requirements:**
