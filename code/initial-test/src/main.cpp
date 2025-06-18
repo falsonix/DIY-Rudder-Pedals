@@ -20,9 +20,13 @@ void calculateOffset(int potentiometer, int checkTimes) {
 
   if (potentiometer == rightBrake) {
     rightOffset = offset;
+    Serial.print("Right offset: ");
+    Serial.println(rightOffset);
   }
   else if (potentiometer == leftBrake) {
     leftOffset = offset;
+    Serial.print("Left offset: ");
+    Serial.println(leftOffset);
   }
   else {
     Serial.println("Potentiometer used in offset is invalid!");
@@ -32,16 +36,21 @@ void calculateOffset(int potentiometer, int checkTimes) {
 }
 
 // having the offsets like that might cause issues due to the potentiometers for each pedal being mirrored, reversing the values for one side
-// but oh well that's a problem for future me to fix
+// but oh well that's a problem for future me to fix (once i actually build the device for myself)
 
 void setup() {
   Serial.begin(115200); // in case debugging is needed, hope this doesnt cause issues with COM allocation (light testing reveals it's fine)
+  while (!Serial) {
+    // do nothing until USB is initialized, idk if this'll help anything
+  }
   pinMode(rightBrake, INPUT);
   pinMode(steering, INPUT);
   pinMode(leftBrake, INPUT);
 
   calculateOffset(rightBrake, 4);
   calculateOffset(leftBrake, 4);
+
+  Serial.println("Setup initialized");
 }
 
 // axis mappings (at least how i have them now)
