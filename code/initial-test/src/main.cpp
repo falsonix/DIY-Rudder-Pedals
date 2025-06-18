@@ -40,9 +40,6 @@ void calculateOffset(int potentiometer, int checkTimes) {
 
 void setup() {
   Serial.begin(115200); // in case debugging is needed, hope this doesnt cause issues with COM allocation (light testing reveals it's fine)
-  while (!Serial) {
-    // do nothing until USB is initialized, idk if this'll help anything
-  }
   pinMode(rightBrake, INPUT);
   pinMode(steering, INPUT);
   pinMode(leftBrake, INPUT);
