@@ -22,6 +22,37 @@ This project would not have been as easy (or even possible at all) without the w
 # Wiring Diagram
 ![image](https://github.com/user-attachments/assets/750bce54-1387-4718-94ed-3314c9e24ed7)
 
+# Bill of Materials (BOM)
+
+|Part                                    |Quantity|Notes                                                                        |Purchase Link (USA)                                                                     |Unit Price ($USD)|Est. Price ($USD)|
+|----------------------------------------|--------|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------------|-----------------|-----------------|
+|--Electronics--                         |        |                                                                             |                                                                                        |                 |                 |
+|Raspberry Pi Pico 2                     |1       |can also be the original Pico if you're on a budget and need to save 1 dollar|https://www.adafruit.com/product/6006                                                   |5                |5                |
+|B10K Potentiometers (15mm shaft; Q type)|3       |if they are longer than the ones in the design then they won't fit           |https://www.adafruit.com/product/562                                                    |0.95             |2.85             |
+|Soldering Iron                          |1       |i have a Pinecil, but any soldering iron with a small tip will work          |varies                                                                                  |20               |20               |
+|Solder Wire                             |Varies  |i use 0.8mm solder for projects like this                                    |varies                                                                                  |8                |8                |
+|Electronics Wire                        |Varies  |i used 22 AWG wire, but anything of similar size works; solid or stranded    |varies                                                                                  |10               |10               |
+|Micro USB Cable                         |1       |for programming/interfacing with the Pico                                    |varies                                                                                  |5                |5                |
+|--Structure--                           |        |                                                                             |                                                                                        |                 |                 |
+|6804 Bearings                           |12      |pack of 4 that i found on aliexpress                                         |https://www.aliexpress.us/item/3256805940095002.html                                    |1.75             |21               |
+|6802 Bearings                           |4       |supposedly a 10 pack again on aliexpress                                     |https://www.aliexpress.us/item/3256807138029796.html                                    |1.92             |7.68             |
+|M5x20 Socket Head Screws                |12      |                                                                             |https://boltdepot.com/Product-Details?product=6410                                      |0.2              |2.4              |
+|M5x16 Socket Head Screws                |2       |                                                                             |https://boltdepot.com/Product-Details?product=6409                                      |0.19             |0.38             |
+|M5x12 Socket Head Screws                |4       |                                                                             |https://boltdepot.com/Product-Details?product=6408                                      |0.16             |0.64             |
+|M5 Hex Nuts                             |18      |                                                                             |https://boltdepot.com/Product-Details?product=4775                                      |0.07             |1.26             |
+|M4x35 Socket Head Screws                |4       |                                                                             |https://boltdepot.com/Product-Details?product=6401                                      |0.22             |0.88             |
+|M4 Hex Nuts                             |4       |                                                                             |https://boltdepot.com/Product-Details?product=4774                                      |0.07             |0.28             |
+|M3x40 Socket Head Screws                |2       |                                                                             |https://boltdepot.com/Product-Details?product=6387                                      |0.2              |0.4              |
+|M3 Hex Nuts                             |2       |                                                                             |https://boltdepot.com/Product-Details?product=4773                                      |0.07             |0.14             |
+|Springs                                 |4       |50mm length/0.3mm wire diameter/6mm outer diameter                           |https://www.amazon.com/uxcell-0-6mmx6mmx50mm-Stainless-Compression-Springs/dp/B076LTYY5K|7.69             |7.69             |
+|3D Printer Filament (1kg)               |1       |can be any type you wish to use, PLA/PETG would be best however              |                                                                                        |20               |20               |
+|                                        |        |                                                                             |                                                                                        |                 |                 |
+|EST. SHIPPING + TAX                     |        |                                                                             |                                                                                        |                 |36.18            |
+|TOTAL COST                              |        |                                                                             |                                                                                        |                 |149.78           |
+|TOTAL COST (minus tools)                |        |                                                                             |                                                                                        |                 |106.78           |
+
+
+
 # Building Firmware from Source
 
 **Requirements:**
